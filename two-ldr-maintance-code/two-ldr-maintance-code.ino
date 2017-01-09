@@ -26,7 +26,7 @@ void loop() {
   if(ldrCheck(ldrValue1) != ldrCheck(priviousValue1)) count++;
   if(ldrCheck(ldrValue2) != ldrCheck(priviousValue2)) count--;
   
-  Serial.println(count);
+  Serial.println(count/2);
   delay(10);
   
   priviousValue1 = ldrValue1;
