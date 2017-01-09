@@ -36,7 +36,7 @@ void loop() {
   lcd.setCursor(0,0);
   lcd.println("WC To CAR contrl");
   lcd.print("Total Car:  ");
-  lcd.println(count);
+  lcd.println(count/2);
   delay(10);
   
   priviousValue1 = ldrValue1;
